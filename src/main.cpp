@@ -122,12 +122,6 @@ int throwExceptionTestDtor (bigger cBigger)
   // Declare a bigger shared pointer
   // throw an std::exception()
 
-  // SOLUTION
-  //bigger cObject;
-  //bigger *pcObject;
-  //pcObject = new bigger (42);
-  //throw std::exception();
-
   // observe which dtors are called
   // add a comment in this function after each declaration
   // stating if the dtor is called for that object when
@@ -266,18 +260,6 @@ int main ()
   // display a message that you are about to call throwExceptionTestDtor
   // Catch the exception thrown and observer the dtor's called
 
-  // SOLUTION
-  //bigger cBigger (99);
-  //try
-  //{
-  //  std::cout << "calling throwExceptionTestDtor" << std::endl;
-  //  throwExceptionTestDtor (cBigger);
-  //}
-  //catch (const CS485Exception &e)
-  //{
-  //  std::cout << e.what () << std::endl;
-  //}
-
   // do the above first, then comment out the above and
   // write the code below to cut down on the amount
   // of output you must look through.
@@ -288,17 +270,6 @@ int main ()
   // display a message that you are about to call rethrowExceptionTest
   // Catch the exception thrown
 
-  // SOLUTION
-  /*bigger cBiggerStill (999);
-  try
-  {
-    std::cout << "calling throwExceptionTestDtor" << std::endl;
-    throwExceptionTestDtor (cBiggerStill);
-  }
-  catch (const CS485Exception &e)
-  {
-    std::cout << e.what () << std::endl;
-  }*/
   // terminate gracefully
 
   return EXIT_SUCCESS;
