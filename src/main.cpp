@@ -164,6 +164,10 @@ int main ()
   int *paInts;
   int size = -1;
 
+  // TODO 0
+  // Compile and run this project. Note the error message
+  // in the terminal caused by the uncaught exception
+
   // TODO 1
   // Compile and run this project in the Debugger
   // Observe the exception being thrown
